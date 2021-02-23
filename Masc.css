@@ -1,0 +1,277 @@
+.logo {
+
+position: absolute;
+color: blue;
+float: left;
+margin-left: 150px;
+
+}
+
+div.topbox {
+
+position: relative;
+width: 100%;
+height: 80px;
+background-color: white;
+
+}
+
+
+
+div.secbackground {
+
+  position: relative;
+  overflow: hidden;
+  width: 1850px;
+  height: 800px;
+  background-image: url('./pictures/pug.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -10px;
+
+}
+
+
+div.greyspace {
+
+  width: 100%;
+  height: 1400px;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+div.blackboxl {
+
+  margin: 12.5px;
+  width: 48.5%;
+  height: 400px;
+
+
+
+}
+
+div.blackboxr {
+
+  margin: 12.5px;
+  width: 48.5%;
+  height: 400px;
+
+
+
+}
+
+div.blackboxl:hover {
+
+  opacity: 100%;
+
+}
+
+div.blackboxr:hover {
+
+  opacity: 100%;
+
+}
+
+div.login {
+
+position: absolute;
+right: 0;
+height: 100%;
+width: 200px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: space-between;
+
+}
+
+button.button1 {
+
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 50%;
+text-align: center;
+border-radius: 15px;
+transition: all 0.2s;
+border:0.1em solid black;
+font-size: 24px;
+padding: 28px 128px;
+background-color:rgba(206, 206, 206, 0.4);
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+button.social {
+
+background-size: cover;
+padding: 20px 20px;
+border-radius: 8px;
+float right;
+
+}
+
+button.button1:hover {
+
+color: black;
+background-color: rgba(206, 206, 206, 0.5);
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+button.exit {
+
+position: absolute;
+right: 0;
+
+}
+
+button.cred {
+
+  box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#0e6b78;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+
+}
+
+.cred:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+.backgroundsushi {
+
+background-image: url('./pictures/cuteboi.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 40%;
+
+}
+
+.backgroundhusky {
+
+background-image: url('./pictures/husky.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 40%;
+
+}
+
+.backgroundweiner {
+
+background-image: url('./pictures/weiner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 40%;
+
+}
+
+.backgroundmutt {
+
+background-image: url('./pictures/mutt.png');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 40%;
+
+}
+
+.modal {
+
+display: none;
+position: fixed;
+z-index: 2;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.4);
+padding-top: 60px;
+
+}
+
+.modal-content {
+
+position: relative;
+background-color: #fefefe;
+margin: 5% auto 15% auto;
+border: 1px solid #888;
+width: 80%;
+
+}
+
+.container {
+
+padding: 20px;
+
+}
+
+img.avatar {
+
+position: relative;
+left: 43%;
+right: 43%;
+width: 200px;
+padding-bottom: 5%;
+padding-top: 5%;
+
+}
+
+.close {
+
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+
+}
+
+.close:hover {
+
+opacity: 50%;
+
+}
+
+.animate {
+
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
